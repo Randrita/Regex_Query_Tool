@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<title>Type In</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ url_for('static', filename='/csv.css') }}">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<body>
+
+<div class="w3-container">
+
+  <div class="w3-card-4" style="width:100%;">
+
+    <header class="w3-container w3-cyan">
+      <h1>Type In</h1>
+      <br>
+      <div class="container">
+     
+      
+      
+      <style>
+        ol {
+          background: #3399ff;
+          padding: 20px;
+        }
+        
+        
+        
+        ol li {
+          background: #cce5ff;
+          padding: 5px;
+          margin-left: 35px;
+        }
+        
+        
+        </style>
+     
+    </header>
+   <!--<div class="btn-group">-->
+    <a  href="/"><button type="button" class="btn btn-primary">Explore</button></a>
+    <a href= "csv.html"> <button type="button" class="btn btn-primary">Go to CSV</button></a>
+    <a href= "xlsx.html"><button type="button" class="btn btn-primary" >Go to XLSX</button> </a>
+   <!---- </div> -->
+  </div>
+    <!-- <button type="button" class="btn btn-outline-light">Go to CSV</button>-->
+    
+      <h2>By using this tool user can:</h2>
+
+<ol>
+  <li>Find a word in sentence using "Find"</li>
+  <li>Replace a word in a sentence using "Replace"</li>
+  <li>Extract  number from a sentence using "Extract  numbers from  sentences"</li>
+  <li>Check IP Address is valid or not using "Check the validity of IP Address"</li>
+  <li>Find https , protocol, host from URL from "Find https , protocol, host from URL"</li>
+  <li>Check the validity of mail ID using "Check the validity of mail ID""</li>
+    <li>Find a quoted word in sentence using "Find a quoted word"</li>
+    <li>Find the location of IP Address</li>
+    <li>Find the location of mobile number</li>
+    </ol>
+
+      
+        
+<!-- 
+        <form action="#">
+          <input class="form-control" placeholder="Type here.." id="text" type='text'></input>
+          <select class="form-control form-control-lg" id='dmenu'>
+            <option>Select an operation</option>
+            <option value="Find">Find</option>
+            <option href="typein-replace">Replace</option>
+            <option>Find a quoted word</option>
+            <option>Extract numbers from sentences</option>
+            <option>Find https , protocol , host from url</option>
+            <option>Check the validity of IP Address</option>
+            <option>Check the validity of Mail Id</option>
+          </select>
+
+        </form> -->
+
+        <style>
+          .dropbtn {
+            background-color: #07d5c0;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+          }
+          
+          .dropbtn:hover, .dropbtn:focus {
+            background-color: #07d5c0;
+          }
+          
+          .dropdown {
+            position: relative;
+            display: inline-block;
+          }
+          
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+          
+          .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+          }
+          
+          .dropdown a:hover {background-color: #ddd;}
+          
+          .show {display: block;}
+          </style>
+          </head>
+          <body>
+          
+         
+          <p>Click on the button to select the option.</p>
+          
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Select the option</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="typein-find.html">Find</a>
+              <a href="typein-replace.html">Replace</a>
+              <a href="typein-number.html">Extract numbers from sentences</a>
+              <a href="typein-https.html">Find https , protocol , host from url</a>
+              <a href="typein-ip.html">Check the validity of IP Address</a>
+              <a href="typein-mail.html">Check the validity of Mail Id</a>
+              <a href="typein-quotedword.html">Find a quoted word</a>
+              <a href="IP_location.html">Find the location of your IP Address</a>
+              <a href="mobile_location.html">Find the location of your mobile number</a>
+            
+            </div>
+          </div>
+          
+          <script>
+          /* When the user clicks on the button, 
+          toggle between hiding and showing the dropdown content */
+          function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+          }
+          
+          // Close the dropdown if the user clicks outside of it
+          window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+              var dropdowns = document.getElementsByClassName("dropdown-content");
+              var i;
+              for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+                }
+              }
+            }
+          }
+          </script>
+  
+  <style>
+      .btn {
+        background-color: #07d5c0;
+        border: none;
+        color: white;
+        padding: 12px 30px;
+        cursor: pointer;
+        font-size: 20px;
+      }
+      
+      /* Darker background on mouse-over */
+      .btn:hover {
+        background-color: #07d5c0;
+      }
+      </style>
+      </head>
+    
+
+    <footer class="w3-container w3-blue"style="width:100%;">
+        
+    </footer>
+  </div>
+</div>
+
+<div class="w3-container">
+  
+
+
+
+</body>
+</html>

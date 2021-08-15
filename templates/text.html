@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<title>TEXT File</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ url_for('static', filename='/csv.css') }}">
+
+<body>
+
+<div class="w3-container">
+  
+
+  <div class="w3-card-4" style="width:100%;">
+    <header class="w3-container w3-yellow">
+      <h1>TEXT File</h1>
+    </header>
+
+    <div class="w3-container">
+      
+      <style>
+        .dropbtn {
+          background-color: #d1fa03;
+          color: white;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+          cursor: pointer;
+        }
+        
+        .dropbtn:hover, .dropbtn:focus {
+          background-color: #d1fa03;
+        }
+        
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          overflow: auto;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .dropdown a:hover {background-color: #ddd;}
+        
+        .show {display: block;}
+        </style>
+        </head>
+        <body>
+        
+       
+        <p>Click on the button to select the option.</p>
+        
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Select the option</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="./text-find.html">Find</a>
+            <a href="./text-replace.html">Replace</a>
+          
+          </div>
+        </div>
+        
+        <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
+
+<style>
+    .btn {
+      background-color: #fff34a;
+      border: none;
+      color: white;
+      padding: 12px 30px;
+      cursor: pointer;
+      font-size: 20px;
+    }
+    
+    /* Darker background on mouse-over */
+    .btn:hover {
+      background-color: #fff34a;
+    }
+    </style>
+    </head>
+
+    
+    
+    
+   
+    
+        
+    </div>
+
+    <footer class="w3-container w3-blue"style="width:100%;">
+        
+    </footer>
+  </div>
+</div>
+
+
+</body>
+</html>
