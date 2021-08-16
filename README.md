@@ -27,7 +27,7 @@ tool support files like CSV, TXT, XLSX. Also we add a feature for users so they 
 make it as much user friendly as possible to recover those problems. Hope this will help a user and user can 
 save immense time by using this tool.*
 
-![UI](approach.jpg)
+![UI](approach1.jpg)
 
 DEVELOPERS
 ------
