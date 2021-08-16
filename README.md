@@ -1,5 +1,5 @@
 # Regex_Query_Tool
-The Regex Query Tool is used to verify that the regular expression and substitution patterns you enter will produce the desired results
+
 *The Regex Query Tool is use to verify that the regular expression and substitution patterns you 
 enter will produce the desired results. You can search, find and replace words from your file just 
 in few seconds with the help of this tool. Apart from that this tool will help you in finding 
@@ -43,3 +43,8 @@ DEVELOPERS
 
 ![End](https://camo.githubusercontent.com/6e2c2f5190c42e4ff6bbd45acf48536ef9bf9e95ad599c59473cf1c701236984/68747470733a2f2f737465656d6974696d616765732e636f6d2f3078302f68747470733a2f2f63646e2e6c6966656861636b65722e72752f77702d636f6e74656e742f75706c6f6164732f323031372f30312f657a6769662e636f6d2d63726f705f313438343536333835392e676966) 
 
+~~THANK YOU~~ :tada:
+--------------------------------
+<p align="center"  >
+    <i> “Make it work, make it right, make it fast.” </i>
+</p>
