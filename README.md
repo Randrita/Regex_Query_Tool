@@ -17,3 +17,14 @@ TECHSTACK
     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="80" height="80">
     
 </p>
+
+APPROACH
+------
+*The Regex Testers which are already available are quite challenging for non-technical persons. So we decided 
+to solve this problem and make regex query tool easier for a common person. Anyone can find and replace any 
+word in few seconds now. The main advantage of this tool which is quite unique is the support of files. Our 
+tool support files like CSV, TXT, XLSX. Also we add a feature for users so they can interact with us. We tried to 
+make it as much user friendly as possible to recover those problems. Hope this will help a user and user can 
+save immense time by using this tool.*
+
+![UI](approach.jpg)
