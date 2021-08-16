@@ -28,3 +28,10 @@ make it as much user friendly as possible to recover those problems. Hope this w
 save immense time by using this tool.*
 
 ![UI](approach.jpg)
+
+DEVELOPERS
+------
+<p align="left">
+    <a href="https://www.linkedin.com/in/randrita-sarkar-8690591a1/" target="_blank"><u>Randrita Sarkar</u></a> <br>
+    <a href="https://www.linkedin.com/in/soham-nandi-b39288215/" target="_blank"><u>Soham Nandi</u></a>
+</p>
