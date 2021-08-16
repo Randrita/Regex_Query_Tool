@@ -46,5 +46,6 @@ DEVELOPERS
 ~~THANK YOU~~ :tada:
 --------------------------------
 <p align="center"  >
-    <i> “Make it work, make it right, make it fast.” </i>
+    <meta charset="UTF-8">
+    <i> “Make it work, make it right, make it fast.” &#128151 </i>
 </p>
