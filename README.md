@@ -31,7 +31,12 @@ save immense time by using this tool.*
 
 DEVELOPERS
 ------
+<!--
 <p align="left">
     <a href="https://www.linkedin.com/in/randrita-sarkar-8690591a1/" target="_blank"><u>Randrita Sarkar</u></a> <br>
     <a href="https://www.linkedin.com/in/soham-nandi-b39288215/" target="_blank"><u>Soham Nandi</u></a>
 </p>
+-->
+
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Randrita-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/randrita-sarkar-8690591a1/) 
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Soham-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/soham-nandi-b39288215/) 
