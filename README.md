@@ -1,4 +1,4 @@
-# Regex_Query_Tool
+# Regex Query Tool
 
 *The Regex Query Tool is use to verify that the regular expression and substitution patterns you 
 enter will produce the desired results. You can search, find and replace words from your file just 
